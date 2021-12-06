@@ -1,0 +1,57 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --acceent-color: #2196f3;
+  --info-list-color: rgba(255, 255, 255, 0.6);
+  --main-picture-colore: #ffffff;
+}
+
+/* Body */
+body {
+  background-color: var(--main-picture-colore);
+  color: var(--primary-text-color);
+}
+/* Footer */
+footer {
+  background-color: #2f303a;
+}
+
+/* Logo */
+.logo {
+  color: var(--acceent-color);
+}
+
+/* list */
+.list .item {
+  color: var(--acceent-color);
+}
+
+/* items */
+.items .link:hover,
+.items .link:focus {
+  color: var(--main-picture-colore);
+}
+/* Info */
+.info .section {
+  color: var(--title-text-color);
+}
+.info .section:hover,
+.info .section:focus {
+  color: var(--acceent-color);
+}
+/* Preview */
+.preview .preview-section {
+  color: var(--title-text-color);
+}
+/* Navigation */
+.navigation {
+  color: var(--main-picture-colore);
+}
+/* info-list */
+.info-list {
+  color: var(--info-list-color);
+}
+.info-list:focus,
+.info-list:hover {
+  color: var(--acceent-color);
+}
