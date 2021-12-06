@@ -26,10 +26,11 @@ footer {
   color: var(--acceent-color);
 }
 
-/* items */
-.items .link:hover,
-.items .link:focus {
+/* Button */
+.button .link:hover,
+.button .link:focus {
   color: var(--main-picture-colore);
+  background-color: var(--acceent-color);
 }
 /* Info */
 .info .section {
@@ -46,6 +47,10 @@ footer {
 /* Navigation */
 .navigation {
   color: var(--main-picture-colore);
+}
+.navigation:focus,
+.navigation:hover {
+  color: var(--acceent-color);
 }
 /* info-list */
 .info-list {
