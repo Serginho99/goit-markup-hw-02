@@ -60,3 +60,7 @@ footer {
 .info-list:hover {
   color: var(--acceent-color);
 }
+/* Word title*/
+.word-title {
+  color: var(--main-picture-colore);
+}
