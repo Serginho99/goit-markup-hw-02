@@ -102,6 +102,14 @@ body {
   color: var(--main-color);
 }
 
+.about-text-team {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
 /* Work */
 .work {
   font-family: inherit;
