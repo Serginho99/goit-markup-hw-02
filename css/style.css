@@ -48,7 +48,6 @@ body {
   color: var(--accent-color);
 }
 
-.header-address,
 .header-address {
   color: var(--main-color);
 }
