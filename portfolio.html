@@ -15,97 +15,106 @@
   </head>
   <body>
     <!--Шапка-->
-    <header>
-      <nav>
-        <a href="">Web<span>Studio</span> </a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-logo link" href="/">Web<span class="header-logo-sudio">Studio</span> </a>
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Студия</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Портфолио</a>
+          </li>
+          <li class="header-item"><a class="header-link link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:0961111111">096 111 11 11</a></li>
+      <ul class="header-list list">
+        <li class="header-item">
+          <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="header-item">
+          <a class="header-tel link" href="tel:0961111111">096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!--Основная информация-->
-    <main>
-      <h1>Выбор услуг</h1>
-      <ul>
-        <li><button type="Все">Все</button></li>
-        <li><button type="Веб-сайты">Веб-сайты</button></li>
-        <li><button type="Приложения">Приложения</button></li>
-        <li><button type="Дизайн">Дизайн</button></li>
-        <li><button type="Маркетинг">Маркетинг</button></li>
+    <main class="main">
+      <h1 class="main-title">Выбор услуг</h1>
+      <ul class="list main-list">
+        <li><button class="main-button" type="Все">Все</button></li>
+        <li><button class="main-button" type="Веб-сайты">Веб-сайты</button></li>
+        <li><button class="main-button" type="Приложения">Приложения</button></li>
+        <li><button class="main-button" type="Дизайн">Дизайн</button></li>
+        <li><button class="main-button" type="Маркетинг">Маркетинг</button></li>
       </ul>
       <!--Примеры работ-->
       <h2>Примеры работ</h2>
-      <ul>
+      <ul class="list">
         <li>
           <img src="./img/img1.jpg" alt="Ноутбук-с-сайтом" width="370" />
-          <h3>Технокряк</h3>
-          <p>Веб-сайт</p>
+          <h3 class="about-title">Технокряк</h3>
+          <p class="about-text">Веб-сайт</p>
         </li>
         <li>
           <img src="./img/img2.jpg" alt="Баскетболисты" width="370" />
-          <h3>Постер New Orlean vs Golden Star</h3>
-          <p>Дизайн</p>
+          <h3 class="about-title">Постер New Orlean vs Golden Star</h3>
+          <p class="about-text">Дизайн</p>
         </li>
         <li>
           <img src="./img/img3.jpg" alt="Название-ресторана" width="370" />
-          <h3>Ресторан Seafood</h3>
-          <p>Приложение</p>
+          <h3 class="about-title">Ресторан Seafood</h3>
+          <p class="about-text">Приложение</p>
         </li>
         <li>
           <img src="./img/img4.jpg" alt="Наушники" width="370" />
-          <h3>Проект Prime</h3>
-          <p>Маркетинг</p>
+          <h3 class="about-title">Проект Prime</h3>
+          <p class="about-text">Маркетинг</p>
         </li>
         <li>
           <img src="./img/img5.jpg" alt="Боксы" width="370" />
-          <h3>Проект Boxes</h3>
-          <p>Приложение</p>
+          <h3 class="about-title">Проект Boxes</h3>
+          <p class="about-text">Приложение</p>
         </li>
         <li>
           <img src="./img/img6.jpg" alt="Монитор-компьюетра" width="370" />
-          <h3>Inspiration has no Borders</h3>
-          <p>Веб-сайт</p>
+          <h3 class="about-title">Inspiration has no Borders</h3>
+          <p class="about-text">Веб-сайт</p>
         </li>
         <li>
           <img src="./img/img7.jpg" alt="Книга" width="370" />
-          <h3>Издание Limited Edition</h3>
-          <p>Дизайн</p>
+          <h3 class="about-title">Издание Limited Edition</h3>
+          <p class="about-text">Дизайн</p>
         </li>
         <li>
           <img src="./img/img8.jpg" alt="Проект-Лаб" width="370" />
-          <h3>Проект LAB</h3>
-          <p>Маркетинг</p>
+          <h3 class="about-title">Проект LAB</h3>
+          <p class="about-text">Маркетинг</p>
         </li>
         <li>
           <img src="./img/img9.jpg" alt="Ноутбук" width="370" />
-          <h3>Growing Business</h3>
-          <p>Приложение</p>
+          <h3 class="about-title">Growing Business</h3>
+          <p class="about-text">Приложение</p>
         </li>
       </ul>
     </main>
     <!--Футер-->
-    <footer>
+    <footer class="footer">
+      <a class="footer-logo link" href="">Web<span class="footer-logo-sudio">Studio</span></a>
       <address>
-        <a href="">Web<span>Studio</span></a>
-        <ul>
+        <ul class="list">
           <li>
             <a
+              class="link address-footer"
               href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383859?hl=ru"
               title="Гугл карты"
-              target="_blank"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li><a class="link footer-mail" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="link footer-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
   </body>
 </html>
+

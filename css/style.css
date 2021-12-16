@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* Header */
+.header-logo {
+  color: #2196f3;
+}
+.header-logo-sudio {
+  color: #212121;
+}
+.header-link {
+  color: #212121;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+.header-tel,
+.header-mail {
+  color: #757575;
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: #2196f3;
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* About */
+.about-title {
+  color: #212121;
+}
+.about-text {
+  color: #757575;
+}
+/* Team */
+.team {
+  background-color: #f5f4fa;
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #2196f3;
+}
+.footer-logo-sudio {
+  color: #ffffff;
+}
+.address-footer {
+  color: #ffffff;
+}
+.footer-mail {
+  color: #ffffff99;
+}
+.footer-tel {
+  color: #ffffff99;
+}
+/* Portfolio Main */
+.main-button {
+  color: #212121;
+}
+.main-button:hover,
+.main-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
